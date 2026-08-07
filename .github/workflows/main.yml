@@ -2,7 +2,7 @@ name: Flutter APK Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
     - name: Flutter-ni o'rnatish
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.22.0' # Agar o'zingizda boshqa versiya bo'lsa, o'zgartirishingiz mumkin
+        flutter-version: '3.44.6' # Agar o'zingizda boshqa versiya bo'lsa, o'zgartirishingiz mumkin
         channel: 'stable'
 
     - name: Kutubxonalarni yuklash
