@@ -33,5 +33,5 @@ jobs:
     - name: Tayyor APK-ni yuklab olish uchun chiqarish
       uses: actions/upload-artifact@v4
       with:
-        name: release-apk
-        path: build/app/outputs/flutter-apk/app-release.apk
+        name: Lughat
+        path: build/app/outputs/flutter-apk/lughat-apk.apk
